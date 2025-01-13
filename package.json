@@ -1,6 +1,6 @@
 {
     "name": "sandpack-project",
-    "main": "/index.html",
+    "main": "/Home.html",
     "dependencies": {},
     "devDependencies": {}
   }
