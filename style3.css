@@ -1069,4 +1069,23 @@
     letter-spacing: 0;
     line-height: normal;
   }
+
+.row {
+    box-sizing: border-box;
+  }
+
+  .column {
+    float: left;
+    width: 7.8%;
+    padding: 10px;
+    margin-top: 15px;
+    margin-left: 80%;
+    position: absolute;
+  }
+
   
+  .row ::after{
+    content: "";
+    display: table;
+    clear: both;
+  }
