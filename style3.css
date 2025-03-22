@@ -14,16 +14,6 @@
     position: relative;
   }
   
-  .custom-link{
-    color: #000000;
-  }
-  .custom-link:hover{
-    color: #000000;
-  }
-  .custom-link:visited{
-    color: #000000;
-  }
-  
   .PROGRAM-KERJA .frame {
     position: absolute;
     width: 1440px;
@@ -877,15 +867,7 @@
     font-style: var(--osisadmin-github-io-inter-regular-font-style);
   }
   
-  .PROGRAM-KERJA .lihat-progres {
-    width: 407px;
-    top: 4651px;
-    left: 516px;
-    background-color: #0d2034;
-    border-radius: 12px;
-    position: absolute;
-    height: 70px;
-  }
+  
   
   .PROGRAM-KERJA .text-wrapper-25 {
     width: 367px;
@@ -1069,23 +1051,4 @@
     letter-spacing: 0;
     line-height: normal;
   }
-
-.row {
-    box-sizing: border-box;
-  }
-
-  .column {
-    float: left;
-    width: 7.8%;
-    padding: 10px;
-    margin-top: 15px;
-    margin-left: 80%;
-    position: absolute;
-  }
-
   
-  .row ::after{
-    content: "";
-    display: table;
-    clear: both;
-  }
